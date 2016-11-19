@@ -8,7 +8,7 @@ timeout: 120
 applications:
 - name: registry-boundless-test
   services:
-    - es-test
+    - es-staging
 
   env:
     DEPLOYMENT: 'testing'
